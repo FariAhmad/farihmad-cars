@@ -1,0 +1,29 @@
+{
+  "name": "carhouse-ramilo",
+  "version": "1.0.0",
+  "description": "CarHouse is a website for buying and selling vehicles...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/styles.scss build/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiramilo/CarHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathiramilo/CarHouse/issues"
+  },
+  "homepage": "https://github.com/mathiramilo/CarHouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

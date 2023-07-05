@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" ">
+    <meta name="keywords" content="auto, autos, Buy, Buy-Cars, Sell, Dealerships, Sell-Cars, Automobile, Car-Deleaship">
+    <title> Farihmad Car's - Buy</title>
+    <link rel="shortcut icon" href="../assets/img/logo/icon-shortcut.png">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/de0eb60c48.js" crossorigin="anonymous"></script>
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../build/css/styles.css">
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- GLTFLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <header>
+        <section class="navbar">
+            <div class="container-1600">
+                <div>
+                    <a class="logo" href="../index.html"> <!-- Logo -->
+                        <img src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                    </a>
+    
+                    <button id="hamburguer" class="hamburguer"><i class="fas fa-bars"></i></button>
+                </div>
+        
+                <nav id="main-nav" class="main-nav"> <!-- Navegacion -->
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="../pages/buy-home.html">Buy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/sell.html">Sell</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/dealership.html">Dealership</a>
+                        </li>
+                        <li>
+                            <a class="nav-link btn-ingresar" href="../pages/sign-in.html">sign-in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="banner-comprar-home">
+            <h1>Find the Car of <br><b>Your Dreams</b></h1>
+            <form class="search-form"> 
+                <input class="search-bar" type="search" placeholder="What are you looking for?">
+                <button class="search-btn"><img src="../assets/img/icons/magnifying-glass.png" alt="icono busqueda" width="25"></button>
+            </form>
+        </section>
+    </header>
+
+    <main class="main-comprar-home">
+        <h2>Our brands</h2>
+        <section class="main-brands">
+            <a href="./buy.html" class="brand-card"> <!-- Card -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="logo volkswagen" width="55">
+                </div>
+                <p>Volkswagen</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card  -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/logo-ford.webp" alt="logo ford" width="55">
+                </div>
+                <p>Ford</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card  -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/nissan-logo.webp" alt="logo nissan" width="55">
+                </div>
+                <p>Nissan</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card  -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/logo-bmw.webp" alt="logo bmw" width="55">
+                </div>
+                <p>BMW</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card  -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/toyota-logo.webp" alt="logo toyota" width="55">
+                </div>
+                <p>Toyota</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/logo-mercedes-benz.webp" alt="logo mercedes" width="55">
+                </div>
+                <p>Mercedes</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/citroen-logo.webp" alt="logo citroen" width="55">
+                </div>
+                <p>Citroen</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/chery-logo.webp" alt="logo chery" width="55">
+                </div>
+                <p>Lexus</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/honda-logo.webp" alt="logo honda" width="55">
+                </div>
+                <p>Honda</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/kia-logo.webp" alt="logo kia" width="55">
+                </div>
+                <p>Kia</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/audi-logo.webp" alt="logo audi" width="55">
+                </div>
+                <p>Audi</p>
+            </a>
+            <a href="./buy.html" class="brand-card"> <!-- Card Marca -->
+                <div>
+                    <img src="../assets/img/images/comprar-home/chery-logo.webp" alt="logo chery" width="55">
+                </div>
+                <p>Chery</p>
+            </a>
+
+        </section>
+
+        <h2>Vehicles that Might Interest You</h2>
+        <!-- <section class="car-types-section">
+            <div class="car-types">
+                <div class="vehicle-card vehicle-card-hatchbacks" data-aos="zoom-in">
+                    <canvas id="hatchback-canvas"></canvas>
+                    <p>Hatchbacks</p>
+                </div>
+                <div class="vehicle-card vehicle-card-hatchbacks" data-aos="zoom-in">
+                    <canvas id="lexus-canvas"></canvas>
+                    <p>Lexus</p>
+                </div>
+                <div class="vehicle-card vehicle-card-hatchbacks" data-aos="zoom-in">
+                    <canvas id="amg-canvas"></canvas>
+                    <p>Mercedes</p>
+                </div>
+            </div>
+        </section>
+ -->
+        <section class="car-types-section">
+            <div class="car-types">
+                <div class="vehicle-card vehicle-card-hatchbacks" data-aos="zoom-in">
+                    <canvas id="hatchback-canvas"></canvas>
+                    <p>Hatchbacks</p>
+                </div>
+                <!-- <a href="./buy.html" class="vehicle-card vehicle-card-hatchbacks" data-aos="zoom-in">
+                    <img src="../assets/img/images/comprar-home/vw-golf-hatchback.webp" alt="imagen auto" width="75%">
+                    <p>Hatchbacks</p>
+                </a> -->
+                <a href="./buy.html" class="vehicle-card vehicle-card-sedanes" data-aos="zoom-in"> 
+                    <img src="../assets/img/images/comprar-home/bmw-sedan.webp" alt="imagen auto" width="75%">
+                    <p>B M W</p>
+                </a>
+                <a href="./buy.html" class="vehicle-card vehicle-card-suvs" data-aos="zoom-in"> 
+                    <img src="../assets/img/images/comprar-home/mb-suv.webp" alt="imagen auto" width="75%">
+                    <p>Mercedes</p>
+                </a>
+                <a href="./buy.html" class="vehicle-card vehicle-card-camionetas" data-aos="zoom-in">
+                    <img src="../assets/img/images/comprar-home/raptor-camioneta.webp" alt="imagen auto" width="75%">
+                    <p>Ford</p>
+                </a>
+            </div>
+        </section>
+        
+        <a class="btn-ver-autos" href="./buy.html">See all Cars</a>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <div class="footer-bar"> <!-- Barra Footer -->
+            <a href="../index.html"> <!-- Logo -->
+                <img src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+            </a>
+            <div class="social-media"> <!-- Redes Footer -->
+                <ul>
+                    <li> <!-- Instagram -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/instagram-oscuro.png" alt="icono instagram" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Facebook -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/facebook-oscuro.png" alt="icono facebook" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Whatsapp -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/whatsapp-oscuro.png" alt="icono whatsapp" width="40" height="40"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-sections"> <!-- Secciones Footer -->
+            <section> <!-- Categorias -->
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="./pages/buy-home.html">Buy</a></li>
+                    <li><a href="./pages/sell.html">Sell</a></li>
+                </ul>
+            </section>
+
+            <section> <!-- Nosotros -->
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="./pages/contact-us.html">Become a Dealer</a></li>
+                    <li><a href="#">Legal Information</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </section>
+
+            <section class="section-footer-contacto"> <!-- Contactanos -->
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#"><img class="mail-icon" src="/assets/img/icons/email.png" alt="icono email" width="35" height="35"><span>info@FareeCars.com</span></a></li>
+                    <li><a href="#"><img class="phone-icon" src="/assets/img/icons/phone-call.png" alt="icono phone-call" width="35" height="35"><span>+234 9024915880</span></a></li>
+                </ul>
+            </section>
+        </div>
+        <h3>© 2023 Farihmad Car's, Inc.</h3>
+        <div class="developed-by">
+            <h6>Deleloped by Ahmad Fari</h6>
+            <a target="_blank" href="https://github.com/farihmad"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></a>
+        </div>
+    </footer>
+
+    <!-- My Javascript -->
+    <!-- <script src="../js/app.js"></script> -->
+    <script src="../js/bmw1.js"></script>
+    <script src="../js/amg.js"></script>
+    <script src="../js/lexus1.js"></script>
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>

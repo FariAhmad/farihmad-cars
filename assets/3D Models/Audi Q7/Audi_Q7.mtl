@@ -1,0 +1,201 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  3.5.0.448
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl q7_inside
+Ka 0 0 0
+Kd 0.784314 0.772549 0.654902
+Ks 0 0 0
+illum 2
+Ns 4
+
+newmtl q7_black
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 2.14355
+
+newmtl q7_chrome
+Ka 0 0 0
+Kd 0.186275 0.186275 0.186275
+Ks 0.8 0.8 0.8
+illum 2
+Ns 264.836
+
+newmtl q7_shields
+Ka 0 0 0
+Kd 0.0811765 0.0811765 0.0811765
+Ks 0 0 0
+illum 2
+Ns 635.505
+
+newmtl q7_body
+Ka 0 0 0
+Kd 0.0811961 0.122784 0.138627
+Ks 0.15 0.15 0.15
+illum 2
+Ns 8
+
+newmtl q7_sunroof
+Ka 0 0 0
+Kd 0.145608 0.145608 0.145608
+Ks 0.2 0.2 0.2
+illum 2
+Ns 153.067
+d 0.535
+
+newmtl q7_sunroof_frame
+Ka 0 0 0
+Kd 0.0823529 0.0823529 0.0823529
+Ks 0 0 0
+illum 2
+Ns 153.067
+
+newmtl q7_3stop
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 61.0714
+map_Kd backlght.jpg
+
+newmtl q7_glass
+Ka 0 0 0
+Kd 0.181235 0.181235 0.181235
+Ks 0.2 0.2 0.2
+illum 2
+Ns 32
+d 0.49
+
+newmtl q7_glass_black
+Ka 0 0 0
+Kd 0.0823529 0.0823529 0.0823529
+Ks 0.068 0.068 0.068
+illum 2
+Ns 32
+
+newmtl q7_plate
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 348.978
+map_Kd tablica.jpg
+
+newmtl q7_body2
+Ka 0 0 0
+Kd 0.149529 0.168824 0.164
+Ks 0.15 0.15 0.15
+illum 2
+Ns 8
+
+newmtl q7_red1
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 61.0714
+map_Kd q7-red1.jpg
+
+newmtl q7_fl_bulb
+Ka 0 0 0
+Kd 1 0.898039 0.690196
+Ks 0 0 0
+illum 2
+Ns 61.0714
+
+newmtl q7_fl_lens
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+illum 2
+Ns 61.0714
+d 0.04
+
+newmtl q7_fl_mirror
+Ka 0 0 0
+Kd 0.344549 0.344549 0.344549
+Ks 0.445 0.445 0.445
+illum 2
+Ns 90.836
+
+newmtl q7_front_light
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 61.0714
+map_Kd light.jpg
+
+newmtl q7_mirror
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.9 0.9 0.9
+illum 2
+Ns 61.0714
+
+newmtl q7_red
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 61.0714
+map_Kd red.jpg
+
+newmtl q7_fl_frame
+Ka 0 0 0
+Kd 0.288804 0.288804 0.288804
+Ks 0 0 0
+illum 2
+Ns 423.072
+
+newmtl q7_fl_glass
+Ka 0 0 0
+Kd 0.392157 0.392157 0.392157
+Ks 0.2 0.2 0.2
+illum 2
+Ns 108.613
+d 0.1
+
+newmtl q7_fl_orange
+Ka 0 0 0
+Kd 0.631451 0.283176 0.0781176
+Ks 0 0 0
+illum 2
+Ns 61.0714
+
+newmtl q7_alu
+Ka 0 0 0
+Kd 0.260784 0.260784 0.260784
+Ks 0.2355 0.2355 0.2355
+illum 2
+Ns 16
+
+newmtl q7_tire
+Ka 0 0 0
+Kd 0.0836078 0.0836078 0.0836078
+Ks 0 0 0
+illum 2
+Ns 4
+map_bump tire.jpg
+bump tire.jpg
+
+newmtl q7_discs
+Ka 0 0 0
+Kd 0.435294 0.435294 0.435294
+Ks 0 0 0
+illum 2
+Ns 1104.08
+
+newmtl q7_tip
+Ka 0.313726 0.313726 0.313726
+Kd 0.313726 0.313726 0.313726
+Ks 0 0 0
+illum 2
+Ns 61.0714
+map_bump logo.jpg
+bump logo.jpg

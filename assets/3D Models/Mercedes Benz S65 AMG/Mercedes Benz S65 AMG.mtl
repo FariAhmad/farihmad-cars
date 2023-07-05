@@ -1,0 +1,1931 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl wood
+Ka  0.3 0.2 0.0
+Kd  0.3 0.2 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl wire
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl Text01
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl stwheel
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver222_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver222_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver222
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver06_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver06_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver06
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver05_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver05_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver05
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver04_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver04_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver04
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver03_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver03_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver03
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver02_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver02_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver01_2
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver01_1
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl silver01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl silver
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl r_glass01
+Ka  0.7 0.0 0.0
+Kd  0.7 0.0 0.0
+Ks  1.0 1.0 1.0
+d  0.4
+Ns  8.1
+illum 2
+#
+newmtl r_glass
+Ka  0.7 0.0 0.0
+Kd  0.7 0.0 0.0
+Ks  1.0 1.0 1.0
+d  0.4
+Ns  8.1
+illum 2
+#
+newmtl red_l173
+Ka  0.7 0.0 0.0
+Kd  0.7 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl red_l02
+Ka  0.7 0.0 0.0
+Kd  0.7 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl red_l01
+Ka  0.7 0.0 0.0
+Kd  0.7 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl red_l
+Ka  0.7 0.0 0.0
+Kd  0.7 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl plate52
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl plate
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl orange01
+Ka  1.0 0.5 0.0
+Kd  1.0 0.5 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl orange
+Ka  1.0 0.5 0.0
+Kd  1.0 0.5 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl Object09
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl Object08
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl Object07
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl lcd01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl lcd
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int9
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int83
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int8
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int6
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int27
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int26
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int25
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int23
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int17
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int16
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int151
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl int15
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int14
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int13
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int127
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl int10
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int09
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int08
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int07
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl int02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl int01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl int
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl gum99
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum98
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum97
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum96
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum95
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum94
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum93
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum92
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum91
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum90209
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum90
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum89
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum88
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum87
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum86
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum85
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum84
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum83
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum82
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum81
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum80
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum79
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum78
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum77170
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum77
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum76169
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum76
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum75
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum74
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum71
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum64
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum61
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum50
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum49
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum48
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum47
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum46
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum45
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum44
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum43
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum42
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum41
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum40
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum39
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum38
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum37
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum36
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum35
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum34
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum33
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum32
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum31
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum24
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum221
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum220
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum218
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum216
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum167
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum162
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum161
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum157
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum145
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum136
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum122
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum105
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum100205
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum100
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum01
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl gum
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl glass97
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass79
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass70
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass65
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass62
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass57
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass155
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass147
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass135
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass131
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass124
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass119
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass03
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass01
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl glass
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl door150
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl door02
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl door01
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl door
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl Cylinder26
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl Cylinder25
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl Cylinder24
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl Cylinder01
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome92
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome86
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome80
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome76
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome69
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome68
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome67
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome66
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome63
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome60
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome59
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome58
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome56
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome55
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome54
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome53
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome217
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome188
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome166
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome154
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome153
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome146
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome144
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome14
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome139
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome137
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome132
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome13
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome125
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome123
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome12
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome117
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome115
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome11
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome104
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl chrome103
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome10
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome09
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome08
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  7.6
+illum 2
+#
+newmtl chrome07
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome06
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome05
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome03
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome02
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome01
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl chrome
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.9
+illum 2
+#
+newmtl Box01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl body95
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body89
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body81
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body78
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body77
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body73
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body156
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body152
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body149
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body148
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body143
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body138
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body134
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body130_2
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl body130_1
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body130
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body128
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body126
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body120
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body118_2
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl body118_1
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body118
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body114_1
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body114
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.8 0.8 0.8
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl body
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.1
+illum 2
+#
+newmtl blinker133
+Ka  1.0 0.6 0.0
+Kd  1.0 0.6 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl blinker
+Ka  1.0 0.6 0.0
+Kd  1.0 0.6 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.1
+illum 2
+#
+newmtl black96
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black06
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black05
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black04
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black03
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black02
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+newmtl black
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.6
+illum 2
+#
+# EOF

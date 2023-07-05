@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio donde puedes vender tu auto o comprar el auto que tanto estás buscando, ya sea usado o podes encontrar autos 0 km que ofrecen la gran variedad de concesionarias que se encuentran en el sitio. Si tienes una concesionaria puedes contactarnos para que esta aparezca en este sitio.">
+    <meta name="keywords" content="auto, autos, compra, comprar, venta, vender, concesionaria, 0km, nuevo">
+    <title> Farihmad Cars - sell </title>
+    <link rel="shortcut icon" href="../assets/img/logo/icon-shortcut.png">
+
+    <script src="https://kit.fontawesome.com/de0eb60c48.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../build/css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="navbar"> <!-- Barra de Navegacion -->
+            <div class="container-1600">
+                <div>
+                    <a class="logo" href="../index.html"> <!-- Logo -->
+                        <img src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                    </a>
+    
+                    <button id="hamburguer" class="hamburguer"><i class="fas fa-bars"></i></button>
+                </div>
+        
+                <nav id="main-nav" class="main-nav"> <!-- Navegacion -->
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="../pages/buy-home.html">Buy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/sell.html">Sell</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/dealership.html">Dealership</a>
+                        </li>
+                        <li>
+                            <a class="nav-link btn-ingresar" href="../pages/sign-in.html">Sign-in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="vender-banner">
+            <div class="gradient-div"></div>
+            <h1>Sell ​​your car quickly <br><b>and safely with ease</b></h1>
+        </section>
+    </header>
+
+    <main class="main-vender">
+        <form class="form-vender">
+            <section class="brand-section"> <!-- Marca, Modelo y Ano -->
+                <div>
+                    <h2>1. Indicate Brand, Model and Year of the Vehicle</h2>
+                    <div class="sign-up-field">
+                        <h3>Brand</h3>
+                        <input type="text" name="brand" placeholder="What is the brand of your vehicle?" autocomplete="off" required>
+                    </div>
+                    <div class="sign-up-field">
+                        <h3>Model</h3>
+                        <input type="text" name="model" placeholder="What is the model of your vehicle?" autocomplete="off" required>
+                    </div>
+                    <div class="sign-up-field">
+                        <h3>Year</h3>
+                        <input type="number" name="year" placeholder="What is the yearof your vehicle?" min="1960" max="2022" required>
+                    </div>
+                    <img class="logo-ch-vender" src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                </div>
+                <img class="aside-img" src="../assets/img/images/vender/car-aside-1.webp" alt="imagen auto">
+            </section>
+            <section class="cat-section"> <!-- Categoria, Color y Descripcion -->
+                <div>
+                    <h2>2. Indicate Category, Color and a Description of the Vehicle</h2>
+                    <div class="sign-up-field">
+                        <h3>Category</h3>
+                        <select name="cat" id="">
+                            <option value="" selected disabled>Select a Category</option>
+                            <option value="">Trucks</option>
+                            <option value="">Luxury</option>
+                            <option value="">Normal</option>
+                        </select>
+                    </div>
+                    <div class="sign-up-field">
+                        <h3>Color</h3>
+                        <input type="text" name="color" placeholder="What is the color of your vehicle" autocomplete="off" required>
+                    </div>
+                    <div class="sign-up-field">
+                        <h3>Description</h3>
+                        <textarea name="description" id="" cols="30" rows="10" placeholder="Write a description of your vehicle" minlength="25" maxlength="2500" required></textarea>
+                    </div>
+                    <img class="logo-ch-vender" src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                </div>
+                <img class="aside-img" src="../assets/img/images/vender/car-aside-2.webp" alt="imagen auto">
+            </section>
+            <section class="tec-section"> 
+                <div>
+                    <h2>3. Technical Data of the Vehicle</h2>
+                    <div class="sign-up-field">
+                        <h3>Kilometers</h3>
+                        <input type="number" name="kilometers" placeholder="How many kilometers does your vehicle have??" min="0" required>
+                    </div>
+                    <div class="sign-up-field">
+                        <h3>Vehicle Engine</h3>
+                        <input type="text" name="motor" placeholder="What size is the engine of your vehicle?" autocomplete="off" required>
+                    </div>
+                    <img class="logo-ch-vender" src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                </div>
+                <img class="aside-img" src="../assets/img/images/vender/car-aside-3.webp" alt="imagen auto">
+            </section>
+            <section class="pictures-section"> <!-- Fotos -->
+                <div>
+                    <h2>4. Upload Vehicle Quality Photos</h2>
+                    <p>(Minimum of 4 images with each side)</p>
+                    <div class="upload-image-box">
+                        <input type="file" name="images" id="upload-image" accept="image/*" multiple>
+                        <label for="upload-image">
+                            <img src="../assets/img/icons/camara-fotografica.png" alt="Imagen de Camara">
+                            <p>Add images</p>
+                        </label>
+                    </div>
+                    <img class="logo-ch-vender" src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                </div>
+                <img class="aside-img" src="../assets/img/images/vender/car-aside-4.webp" alt="imagen auto">
+            </section>
+            <section class="location-section"> <!-- Ubicacion -->
+                <div>
+                    <h2>5. Vehicle Location</h2>
+                    <div class="sign-up-field">
+                        <h3>State</h3>
+                        <input type="text" name="motor" placeholder="What state is your vehicle located?" autocomplete="off" required>                    </div>
+                    <div class="sign-up-field">
+                        <h3>Address</h3>
+                        <input type="text" name="motor" placeholder="Enter the complete address of the vehicle location" autocomplete="off" required>                    </div>
+                    <img class="logo-ch-vender" src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                </div>
+                <img class="aside-img" src="../assets/img/images/vender/car-aside-6.webp" alt="imagen auto">
+            </section>
+            <section class="end-section"> <!-- Finalizar Publicacion -->
+                <div>
+                    <h2>6. Final Publishing</h2>
+                    <div class="sign-up-field">
+                        <h3>Owners Name</h3>
+                        <input type="text" name="owner" placeholder="Name of vehicle owner" autocomplete="off" required>
+                    </div>
+                    <div class="sign-up-field">
+                        <h3>Price</h3>
+                        <div class="field-price">
+                            <h4>NGN</h4>
+                            <input type="number" name="price" min="1500" max="1000000" placeholder="Enter the Price of your Vehicle" required>
+                        </div>
+                    </div>
+                    <img class="logo-ch-vender" src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                </div>
+                <img class="aside-img" src="../assets/img/images/vender/car-aside-5.webp" alt="imagen auto">
+            </section>
+            <input class="btn-publish" type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <div class="footer-bar"> <!-- Barra Footer -->
+            <a href="../index.html"> <!-- Logo -->
+                <img src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+            </a>
+            <div class="social-media"> <!-- Redes Footer -->
+                <ul>
+                    <li> <!-- Instagram -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/instagram-oscuro.png" alt="icono instagram" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Facebook -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/facebook-oscuro.png" alt="icono facebook" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Whatsapp -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/whatsapp-oscuro.png" alt="icono whatsapp" width="40" height="40"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-sections"> <!-- Secciones Footer -->
+            <section> <!-- Categorias -->
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="/pages/buy-home.html">Buy</a></li>
+                    <li><a href="/pages/sell.html">Sell</a></li>
+                </ul>
+            </section>
+
+            <section> <!-- Nosotros -->
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="/pages/contact-us.html">Become a Dealer</a></li>
+                    <li><a href="#">Legal Information</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </section>
+
+            <section class="section-footer-contacto"> <!-- Contactanos -->
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#"><img class="mail-icon" src="../assets/img/icons/email.png" alt="icono email" width="35" height="35"><span>info@CarHouse.com.uy</span></a></li>
+                    <li><a href="#"><img class="phone-icon" src="../assets/img/icons/phone-call.png" alt="icono phone-call" width="35" height="35"><span>0000 00 00</span></a></li>
+                </ul>
+            </section>
+        </div>
+        <h3>© 2023 Farihmad Car's, Inc.</h3>
+        <div class="developed-by">
+            <h6>Deleloped by Ahmad Fari</h6>
+            <a target="_blank" href="https://github.com/farihmad"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></a>
+        </div>
+    </footer>
+
+    <!-- My Javascript -->
+    <script src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio donde puedes vender tu auto o comprar el auto que tanto estás buscando, ya sea usado o podes encontrar autos 0 km que ofrecen la gran variedad de concesionarias que se encuentran en el sitio. Si tienes una concesionaria puedes contactarnos para que esta aparezca en este sitio.">
+    <meta name="keywords" content="auto, autos, compra, comprar, venta, vender, concesionaria, 0km, nuevo">
+    <title> Faree Car's</title>
+    <link rel="shortcut icon" href="./assets/img/logo/icon-shortcut.png">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/de0eb60c48.js" crossorigin="anonymous"></script>
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./build/css/styles.css">
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- GLTFLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="navbar"> <!-- Barra de Navegacion -->
+            <div class="container-1600">
+                <div>
+                    <a class="logo" href="./index.html"> <!-- Logo -->
+                        <img src="./assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                    </a>
+    
+                    <button id="hamburguer" class="hamburguer"><i class="fas fa-bars"></i></button>
+                </div>
+        
+                <nav id="main-nav" class="main-nav"> <!-- Navegacion -->
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="./pages/buy-home.html">Buy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="./pages/sell.html">Sell</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="./pages/dealership.html">Dealerships</a>
+                        </li>
+                        <li>
+                            <a class="nav-link btn-ingresar" href="./pages/sign-in.html">Sign-up</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="banner">
+            <img class="banner-img" src="./assets/img/images/landing-page/banner-wallpaper.webp" alt="imagen de auto" width="50%"> <!-- Imagen del banner -->
+            <div class="banner-content">
+                <h1>The <b>Best Platform</b> to <br>Sell and Buy Cars</h1>
+                <p>The best platform to sell or buy cars has arrived in Nigeria. <br>At Farihmad Cars we make it easy for you.</p>
+                <a class="btn-explorar" href="./pages/dealership.html">Explore</a>
+            </div>
+        </section>
+    </header>
+    <main id="main" class="main-content">
+        <h2>What we offer here?</h2>
+        <p>Everything related to the world of vehicles is here, with an exlusive 3D view.</p>
+
+        <section class="section-vender">
+            <img data-aos="fade-right" data-aos-duration="1500" src="./assets/img/images/landing-page/vender.svg" alt="imagen Businessman" width="50%">
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <h3>Sell your car quicly <br><b>and with ease.</b></h3>
+                <a class="btn-vender" href="./pages/sell.html">Sell</a> 
+            </div>
+        </section> 
+        
+        <section class="section-comprar">
+            <img data-aos="fade-left" data-aos-duration="1500" src="./assets/img/images/landing-page/auto-verde.webp" alt="imagen auto verde" width="50%">
+            <div data-aos="fade-right" data-aos-duration="1500">
+                <h3>Find the Car of your <br><b>Dreams</b></h3>
+                <a class="btn-comprar" href="./pages/buy-home.html">Buy</a> <!-- Boton Comprar -->
+            </div>
+        </section>
+
+        <section class="section-concesionarias">
+            <img data-aos="fade-right" data-aos-duration="1500" src="./assets/img/images/landing-page/auto-rojo.webp" alt="imagen auto rojo" width="50%">
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <h3>The most recognized dealerships <br><b>in the country </b>are here!</h3>
+                <h3>Buy your <b>New Car Here</b></h3>
+                <a class="btn-concesionarias" href="./pages/dealership.html">Browse Dealers</a>
+            </div>
+        </section>
+
+        <h2>Become a Dealer</h2>
+        <p>Register your dealership for free with us, for users to access your cars</p>
+
+        <section class="section-contacto">
+            <img data-aos="fade-right" data-aos-duration="1500" src="./assets/img/images/landing-page/concessionaire-register.svg" alt="imagen contacto" width="50%">
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <h3>Register your <b>Dealership</b><br>on our Platform</h3>
+                <a class="btn-contacto" href="./pages/contact-us.html">Register</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <div class="footer-bar"> <!-- Barra Footer -->
+            <a href="./index.html"> <!-- Logo -->
+                <img src="./assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+            </a>
+            <div class="social-media"> <!-- Redes Footer -->
+                <ul>
+                    <li> <!-- Instagram -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="./assets/img/icons/instagram-oscuro.png" alt="icono instagram" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Facebook -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="./assets/img/icons/facebook-oscuro.png" alt="icono facebook" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Whatsapp -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="./assets/img/icons/whatsapp-oscuro.png" alt="icono whatsapp" width="40" height="40"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-sections"> <!-- Secciones Footer -->
+            <section> <!-- Categorias -->
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="./pages/buy-home.html">Buy</a></li>
+                    <li><a href="./pages/sell.html">Sell</a></li>
+                </ul>
+            </section>
+
+            <section> <!-- Nosotros -->
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="./pages/contact-us.html">Become a Dealer</a></li>
+                    <li><a href="#">Legal Information</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </section>
+
+            <section class="section-footer-contacto"> <!-- Contactanos -->
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#"><img class="mail-icon" src="./assets/img/icons/email.png" alt="icono email" width="35" height="35"><span>info@FareeCars.com</span></a></li>
+                    <li><a href="#"><img class="phone-icon" src="./assets/img/icons/phone-call.png" alt="icono phone-call" width="35" height="35"><span>+234 9024915880</span></a></li>
+                </ul>
+            </section>
+        </div>
+        <h3>© 2023 Farihmad Car's, Inc.</h3>
+        <div class="developed-by">
+            <h6>Deleloped by Ahmad Fari</h6>
+            <a target="_blank" href="https://github.com/farihmad"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></a>
+        </div>
+    </footer>
+
+    <!-- My Javascript -->
+    <script src="./js/app.js"></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+        <script>
+// Create a scene
+const scene = new THREE.Scene();
+
+// Create a camera
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+camera.position.z = 5;
+
+// Create a renderer
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth * 0.5, window.innerHeight * 0.5);
+document.getElementById('banner-container').appendChild(renderer.domElement);
+
+// Load the 3D model
+const loader = new THREE.GLTFLoader();
+loader.load('/assets/img/bmw.glb', function (gltf) {
+  const model = gltf.scene;
+  scene.add(model);
+
+  // Animation loop
+  function animate() {
+    requestAnimationFrame(animate);
+
+    // Add any animation or rotation logic here
+
+    renderer.render(scene, camera);
+  }
+
+  animate();
+});
+    </script>
+
+</body>
+</html>

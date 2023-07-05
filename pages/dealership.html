@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio donde puedes vender tu auto o comprar el auto que tanto estás buscando, ya sea usado o podes encontrar autos 0 km que ofrecen la gran variedad de concesionarias que se encuentran en el sitio. Si tienes una concesionaria puedes contactarnos para que esta aparezca en este sitio.">
+    <meta name="keywords" content="auto, autos, compra, comprar, venta, vender, concesionaria, 0km, nuevo">
+    <title> Farihmad - Dealership </title>
+    <link rel="shortcut icon" href="../assets/img/logo/icon-shortcut.png">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/de0eb60c48.js" crossorigin="anonymous"></script>
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../build/css/styles.css">
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- GLTFLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <header>
+        <section class="navbar"> 
+            <div class="container-1600">
+                <div>
+                    <a class="logo" href="../index.html"> <!-- Logo -->
+                        <img src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+                    </a>
+                    <button id="hamburguer" class="hamburguer"><i class="fas fa-bars"></i></button>
+                </div>
+        
+                <nav id="main-nav" class="main-nav"> <!-- Nav Section -->
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="../pages/buy-home.html">Buy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/sell.html">Sell</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/dealership.html">Dealership</a>
+                        </li>
+                        <li>
+                            <a class="nav-link btn-ingresar" href="../pages/sign-in.html">Sign-in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="concesionarias-banner">
+            <h1>Buy Your <br><b>New Car </b></h1>
+        </section>
+    </header>
+    
+    <main class="main-concesionarias">
+        <section>
+            <h2>Our Brands</h2>
+            <div class="grid-concesionarias">
+                <div class="card-concesionaria"> 
+                    <img src="../assets/img/images/concesionarias/concesionario-bmw.webp" alt="concesionaria bmw" width="20%">
+                    <div class="brand-concesionaria">
+                        <img src="../assets/img/images/comprar-home/logo-bmw.webp" alt="logo bmw" width="50">
+                        <div>
+                            <p>Dealer</p>
+                            <p><b>BMW</b></p>
+                        </div>
+                    </div>
+                    <a class="btn-ver-autos-concesionaria" href="#modal-ver-autos-bmw">View Car</a>
+                    <a class="btn-contactarse" href="#modal-contactarse">Contact</a>
+                </div>
+                <div class="card-concesionaria"> 
+                    <img src="../assets/img/images/concesionarias/concesionario-mercedes.webp" alt="concesionaria mercedes" width="20%">
+                    <div class="brand-concesionaria">
+                        <img src="../assets/img/images/comprar-home/logo-mercedes-benz.webp" alt="logo mercedes" width="50">
+                        <div>
+                            <p>Dealer</p>
+                            <p><b>Mercedes</b></p>
+                        </div>
+                    </div>
+                    <a class="btn-ver-autos-concesionaria" href="#modal-ver-autos-benz">View Cars</a>
+                    <a class="btn-contactarse" href="#modal-contactarse">Contact</a>
+                </div>
+                <div class="card-concesionaria">
+                    <img src="../assets/img/images/concesionarias/concesionaria ford.webp" alt="concesionaria ford" width="20%">
+                    <div class="brand-concesionaria">
+                        <img src="../assets/img/images/comprar-home/logo-ford.webp" alt="logo ford" width="50">
+                        <div>
+                            <p>Dealer</p>
+                            <p><b>Ford</b></p>
+                        </div>
+                    </div>
+                    <a class="btn-ver-autos-concesionaria" href="#modal-ver-autos-ford">View Cars</a>
+                    <a class="btn-contactarse" href="#modal-contactarse">Contact</a>
+                </div>
+                <div class="card-concesionaria">
+                    <img src="../assets/img/images/concesionarias/concesionaria-chevrolet.webp" alt="concesionaria chevrolet" width="20%">
+                    <div class="brand-concesionaria">
+                        <img src="../assets/img/images/comprar-home/chevrolet-logo.webp" alt="logo chevrolet" width="50">
+                        <div>
+                            <p>Dealer</p>
+                            <p><b>Lexus</b></p>
+                        </div>
+                    </div>
+                    <a class="btn-ver-autos-concesionaria" href="#modal-ver-autos-lexus">View Cars</a>
+                    <a class="btn-contactarse" href="#modal-contactarse">Contact</a>
+                </div>
+            </div>
+
+            <!-- Car Modal BMW -->
+            <section id="modal-ver-autos-bmw" class="modal-ver-autos">
+                <div class="modal-ver-autos-container">
+                    <header class="modal-ver-autos-header">
+                        <div class="modal-va-brand">
+                            <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="Logo Volkswagen">
+                            <h3>Dealer <strong>BMW</strong></h3>
+                        </div>
+                        <a href="#modal-contactarse" class="btn-contactarse-mva">Contact</a>
+                        <a href="#body" class="close-x"><i class="fas fa-times"></i></a>
+                    </header>
+                    <section class="available-cars">
+                        <h3>Available Cars</h3>
+                        <div class="concessionaire-cars">
+                            <div class="ccar-card">
+                                <canvas id="mercedes-c350-canvas"></canvas>
+                                <h4>BMW R350</h4>
+                                <p>N <span>32,190,000</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <canvas id="mercedes-benz-2021-canvas"></canvas>
+                                <h4>Polar R 2021</h4>
+                                <p>N <span>28,500,900</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <canvas id="mercedes-amg-350-canvas"></canvas>
+                                <h4>BMW S70</h4>
+                                <p>N <span>35,900,700</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="left-arrow">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="right-arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- Car Modal Mercedes -->
+            <section id="modal-ver-autos-lexus" class="modal-ver-autos">
+                <div class="modal-ver-autos-container">
+                    <header class="modal-ver-autos-header">
+                        <div class="modal-va-brand">
+                            <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="Logo Volkswagen">
+                            <h3>Dealer <strong>Lexus</strong></h3>
+                        </div>
+                        <a href="#modal-contactarse" class="btn-contactarse-mva">Contact</a>
+                        <a href="#body" class="close-x"><i class="fas fa-times"></i></a>
+                    </header>
+                    <section class="available-cars">
+                        <h3>Available Cars</h3>
+                        <div class="concessionaire-cars">
+                            <div class="ccar-card">
+                                <canvas id="mercedes-c350-canvas"></canvas>
+                                <h4>S7 Lexus</h4>
+                                <p>N <span>32,190,000</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <canvas id="mercedes-benz-2021-canvas"></canvas>
+                                <h4>Lexus 2021</h4>
+                                <p>N <span>28,500,900</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <canvas id="mercedes-amg-350-canvas"></canvas>
+                                <h4>Lexus R50</h4>
+                                <p>N <span>35,900,700</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="left-arrow">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="right-arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            
+            <!-- Car Modal Mercedes -->
+            <section id="modal-ver-autos-benz" class="modal-ver-autos">
+                <div class="modal-ver-autos-container">
+                    <header class="modal-ver-autos-header">
+                        <div class="modal-va-brand">
+                            <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="Logo Volkswagen">
+                            <h3>Dealer <strong>Mercedes</strong></h3>
+                        </div>
+                        <a href="#modal-contactarse" class="btn-contactarse-mva">Contact</a>
+                        <a href="#body" class="close-x"><i class="fas fa-times"></i></a>
+                    </header>
+                    <section class="available-cars">
+                        <h3>Available Cars</h3>
+                        <div class="concessionaire-cars">
+                            <div class="ccar-card">
+                                <canvas id="mercedes-c350-canvas"></canvas>
+                                <h4>Mercedes C350</h4>
+                                <p>N <span>32,190,000</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <canvas id="mercedes-benz-2021-canvas"></canvas>
+                                <h4>Benz 2021</h4>
+                                <p>N <span>28,500,900</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <canvas id="mercedes-amg-350-canvas"></canvas>
+                                <h4>AMG 350</h4>
+                                <p>N <span>35,900,700</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Interested</a>
+                            </div>
+                            <div class="left-arrow">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="right-arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+
+            <section id="modal-ver-autos-ford" class="modal-ver-autos">
+                <div class="modal-ver-autos-container">
+                    <header class="modal-ver-autos-header">
+                        <div class="modal-va-brand">
+                            <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="Logo Volkswagen">
+                            <h3>Dealer <strong>Ford</strong></h3>
+                        </div>
+                        <a href="#modal-contactarse" class="btn-contactarse-mva">Contact</a>
+                        <a href="#body" class="close-x"><i class="fas fa-times"></i></a>
+                    </header>
+                    <section class="available-cars">
+                        <h3>Available Cars</h3>
+                        <div class="concessionaire-cars">
+                            <div class="ccar-card">
+                                <img src="../assets/img/images/comprar-home/vw-golf-hatchback.webp" alt="Volkswagen Golf GTI">
+                                <h4> GTI</h4>
+                                <p>N <span>32,190,000</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Intrested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <img src="../assets/img/images/concesionarias/vw-tiguan-wb.webp" alt="Volkswagen Tiguan">
+                                <h4>Tiguan 2021</h4>
+                                <p>N <span>28,500,900</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Intrested</a>
+                            </div>
+                            <div class="ccar-card">
+                                <img src="../assets/img/images/concesionarias/vw-vento-wb.webp" alt="Vento GLI">
+                                <h4>Vento GLI</h4>
+                                <p>N <span>35,900,700</span></p>
+                                <a href="#modal-contactarse" class="btn-me-interesa">Intrested</a>
+                            </div>
+                            <div class="left-arrow">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="right-arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </section>
+                    
+                </div>
+            </section>
+            <!-- Modal Contact -->
+            <section id="modal-contactarse" class="modal-contactarse">
+                <div class="modal-contactarse-container">
+                    <a href="#body" class="close-x"><i class="fas fa-times"></i></a>
+                    <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="Logo Volkswagen">
+                    <div class="modal-contactarse-contact">
+                        <header class="modal-contactarse-header">
+                            <div class="modal-va-brand">
+                                <img src="../assets/img/images/comprar-home/volkswagen-logo.webp" alt="Logo Volkswagen">
+                                <h3>Contact a <strong>Dealer</strong></h3>
+                            </div>
+                        </header>
+                        <section class="modal-contactarse-data">
+                            <h3>Contact</h3>
+                            <form class="modal-contactarse-form">
+                                <div class="sign-up-field">
+                                    <h3>Full Name</h3>
+                                    <input type="text" name="client-name" placeholder="Enter your full name" autocomplete="off" required>
+                                </div>
+                                <div class="sign-up-field">
+                                    <h3>Email</h3>
+                                    <input type="email" name="client-email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="sign-up-field">
+                                    <h3 class="input-heading">Phone </h3>
+                                    <input type="tel" name="client-phone" placeholder="Enter your phone number" required>
+                                </div>
+                                <div class="sign-up-field">
+                                    <h3>Intrested Vehicle</h3>
+                                    <input type="text" name="wanted-vehicle" placeholder="Enter your Vehicle choice" autocomplete="off" required>
+                                </div>
+                                <input class="btn-enviar-consulta" type="submit" value="submit">
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <div class="footer-bar"> <!-- Barra Footer -->
+            <a href="../index.html"> <!-- Logo -->
+                <img src="../assets/img/logo/carhouse-logo.png" alt="logo CarHouse">
+            </a>
+            <div class="social-media"> <!-- Redes Footer -->
+                <ul>
+                    <li> <!-- Instagram -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/instagram-oscuro.png" alt="icono instagram" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Facebook -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/facebook-oscuro.png" alt="icono facebook" width="40" height="40"></a>
+                    </li>
+                    <li> <!-- Whatsapp -->
+                        <a class="social-media-item" href="#" target="_blank"><img src="../assets/img/icons/whatsapp-oscuro.png" alt="icono whatsapp" width="40" height="40"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-sections"> <!-- Secciones Footer -->
+            <section> <!-- Categorias -->
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="./pages/buy-home.html">Buy</a></li>
+                    <li><a href="./pages/sell.html">Sell</a></li>
+                </ul>
+            </section>
+
+            <section> <!-- Nosotros -->
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="./pages/contact-us.html">Become a Dealer</a></li>
+                    <li><a href="#">Legal Information</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </section>
+
+            <section class="section-footer-contacto"> <!-- Contactanos -->
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#"><img class="mail-icon" src="./assets/img/icons/email.png" alt="icono email" width="35" height="35"><span>info@FareeCars.com</span></a></li>
+                    <li><a href="#"><img class="phone-icon" src="./assets/img/icons/phone-call.png" alt="icono phone-call" width="35" height="35"><span>+234 9024915880</span></a></li>
+                </ul>
+            </section>
+        </div>
+        <h3>© 2023 Farihmad Car's, Inc.</h3>
+        <div class="developed-by">
+            <h6>Deleloped by Ahmad Fari</h6>
+            <a target="_blank" href="https://github.com/farihmad"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></a>
+        </div>
+    </footer>
+
+    <!-- My Javascript -->
+    <script src="../js/app.js"></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- ... -->
+    <script>
+        // Get the canvas elements
+        const c350Canvas = document.getElementById('mercedes-c350-canvas');
+        const benz2021Canvas = document.getElementById('mercedes-benz-2021-canvas');
+        const amg350Canvas = document.getElementById('mercedes-amg-350-canvas');
+        // Create Three.js renderers for each canvas
+        const rendererC350 = new THREE.WebGLRenderer({ canvas: c350Canvas });
+        const rendererBenz2021 = new THREE.WebGLRenderer({ canvas: benz2021Canvas });
+        const rendererAmg350 = new THREE.WebGLRenderer({ canvas: amg350Canvas });
+        // Create Three.js scenes for each canvas
+        const sceneC350 = new THREE.Scene();
+        const sceneBenz2021 = new THREE.Scene();
+        const sceneAmg350 = new THREE.Scene();
+        // Create lights for each scene
+        const ambientLight = new THREE.AmbientLight(0xffffff, 50);
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 80);
+        directionalLight.position.set(1, 1, 1).normalize();
+
+        const spotlight = new THREE.SpotLight(0xffffff, 70);
+        spotlight.position.set(10, 102, 100); // Adjust the position of the spotlight
+        sceneC350.add(spotlight);
+
+        const spotlight2 = new THREE.SpotLight(0xffffff, 70);
+        spotlight.position.set(10, 102, 100); // Adjust the position of the spotlight
+        sceneBenz2021.add(spotlight2);
+        // Add lights to each scene
+        sceneC350.add(ambientLight, directionalLight);
+        sceneBenz2021.add(ambientLight, directionalLight, spotlight2);
+        sceneAmg350.add(ambientLight, directionalLight);
+        // Create camera for each scene
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.z = 7;
+
+        // Create 3D models and add them to each scene
+        const loader = new THREE.GLTFLoader();
+
+        // Load the GLTF model for the first canvas
+        loader.load('/assets/img/bmw1.glb', function(gltf) {
+        const model = gltf.scene;
+        model.rotation.y = Math.PI / 2; // Rotate the model if needed
+        model.scale.set(1.9, 1.5, 1.6); // Adjust the scale of the model
+        sceneC350.add(model);
+
+        model.traverse(function(child) {
+            if (child.isMesh) {
+            child.material.emissiveIntensity = 0.1;
+            child.material.metalness = 1;
+            }
+        });
+
+        // Render the scene for the first canvas
+        function animateC350() {
+            requestAnimationFrame(animateC350);
+            model.rotation.y += 0.01;
+            rendererC350.render(sceneC350, camera);
+        }
+        animateC350();
+        });
+
+        // Load the GLTF model for the second canvas
+        loader.load('/assets/img/bmw2.glb', function(gltf) {
+        const model = gltf.scene;
+        model.rotation.y = Math.PI / 2; // Rotate the model if needed
+        model.scale.set(2.9, 1.5, 1.6); // Adjust the scale of the model
+        sceneBenz2021.add(model);
+
+        model.traverse(function(child) {
+            if (child.isMesh) {
+            child.material.emissiveIntensity = 1;
+            child.material.metalness = 1;
+            child.material.environmentlight = 1;
+            }
+        });
+
+        // Render the scene for the second canvas
+        function animateBenz2021() {
+            requestAnimationFrame(animateBenz2021);
+            model.rotation.y += 0.01;
+            rendererBenz2021.render(sceneBenz2021, camera);
+        }
+        animateBenz2021();
+        });
+
+        // Load the GLTF model for the third canvas
+        loader.load('/assets/img/gs 350.glb', function(gltf) {
+        const model = gltf.scene;
+        model.rotation.y = Math.PI / 2; // Rotate the model if needed
+        model.scale.set(1.9, 1.5, 1.6); // Adjust the scale of the model
+        sceneAmg350.add(model);
+
+        model.traverse(function(child) {
+            if (child.isMesh) {
+            child.material.emissiveIntensity = 0.1;
+            child.material.metalness = 1;
+            }
+        });
+
+        // Render the scene for the third canvas
+        function animateAmg350() {
+            requestAnimationFrame(animateAmg350);
+            model.rotation.y += 0.01;
+            rendererAmg350.render(sceneAmg350, camera);
+        }
+        animateAmg350();
+        });
+
+    </script>
+    <!-- ... -->
+
+</body>
+</html>
