@@ -1,7 +1,7 @@
 {
   "name": "carhouse-ramilo",
   "version": "1.0.0",
-  "description": "CarHouse is a website for buying and selling vehicles...",
+  "description": " ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathiramilo/CarHouse.git"
+    "url": "github.com/FariAhmad/farihmad-cars.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mathiramilo/CarHouse/issues"
+    "url": "https://github.com/FariAhmad/farihmad-cars.git"
   },
-  "homepage": "https://github.com/mathiramilo/CarHouse#readme",
+  "homepage": "https://github.com/FariAhmad/farihmad-cars#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
