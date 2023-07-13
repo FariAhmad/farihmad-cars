@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/leencote/repositories/farihmad-cars
+    - /bin/cp -r . $DEPLOYPATH
